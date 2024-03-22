@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyMusicPlayer</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+  <div class="music-player">
+    <div class="sidebar">
+      <!-- List of songs or playlists -->
+      <div class="playlist" *ngFor="let song of songs">
+        <span>{{ song.name }}</span>
+      </div>
+    </div>
+    <div class="main">
+      <div class="now-playing">
+        <!-- Display the currently playing song -->
+        <h2>{{ currentSong.name }}</h2>
+        <p>{{ currentSong.artist }}</p>
+      </div>
+      <div class="controls">
+        <!-- Player controls -->
+        <button (click)="play()">Play</button>
+        <button (click)="pause()">Pause</button>
+        <!-- Add more controls as needed -->
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
