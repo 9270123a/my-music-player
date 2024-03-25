@@ -1,1 +1,55 @@
-<p>music-player works!</p>
+<!-- app.component.html -->
+<div class="container mx-auto bg-black text-white">
+  <div class="flex">
+    <!-- Sidebar -->
+    <div class="w-64 bg-gray-900 p-4">
+      <div class="text-pink-600 text-lg font-bold mb-4">我的專輯</div>
+      <!-- List of items in sidebar -->
+      <ul>
+        <li class="mb-2">Jessica</li>
+        <li class="mb-2 text-pink-300">YouTube Music</li>
+        <!-- Add additional items here -->
+      </ul>
+    </div>
+
+    <!-- Content Area -->
+    <div class="flex-1 p-8">
+      <!-- Header with search and user info -->
+      <div class="flex justify-between items-center mb-8">
+        <div class="flex space-x-4 items-center">
+          <!-- Search Input -->
+          <input type="text" placeholder="Search" class="bg-gray-800 p-2">
+          <!-- User Name -->
+          <div>Edith Hsu</div>
+        </div>
+        <!-- User Action -->
+        <div>
+          <button class="bg-pink-600 p-2">新增至我的專輯</button>
+        </div>
+      </div>
+
+      <!-- Music Player Interface -->
+      <div class="player bg-gray-800 p-4">
+        <!-- Album info -->
+        <div class="flex items-center mb-4">
+          <img src="https://placehold.co/100x100" alt="Concert image placeholder" class="mr-4">
+          <div>
+            <div class="text-xl font-bold">YouTube Music</div>
+            <div class="text-gray-400">YouTube 頻道</div>
+            <div class="text-gray-400">於 2019.7.22 創建</div>
+          </div>
+        </div>
+        <!-- Song List -->
+        <div>
+          <!-- Song Item -->
+          <div class="flex justify-between items-center mb-2">
+            <div class="text-pink-300">1</div>
+            <div>Jazz Apricot</div>
+            <div>1:52</div>
+          </div>
+          <!-- Repeat for each song -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

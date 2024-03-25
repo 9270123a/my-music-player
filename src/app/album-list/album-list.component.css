@@ -1,0 +1,41 @@
+.AlbumTopBar{
+
+  height: 10%;
+  background-color:#2A2A2A;
+  color: white;
+  padding: 10px 0px 0px 10px;
+  /* padding-top: 16px; */
+}
+
+.AlbumMidBar{
+
+  height: 65%;
+
+  background-color:#2A2A2A;
+
+}
+.MusicName{
+  color: rgba(255, 255, 255, 0.443);
+  padding: 10px ;
+  cursor:pointer;
+
+}
+.MusicName:hover{
+  color: white;
+  padding: 10px ;
+
+
+}
+
+.AlbumDownBar{
+  background-color:#2A2A2A;
+  height: 25%;
+  display: flex;
+
+
+}
+
+
+.myImage{
+  width: 100%;
+}

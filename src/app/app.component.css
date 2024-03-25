@@ -1,0 +1,33 @@
+
+
+.AllBar {
+  height: 728px;
+
+  display: flex;
+  overflow: hidden;
+
+}
+
+.LeftBar {
+  background-color: rgba(34,34,34,1)k;
+  height: 100%;
+  width: 17%;
+}
+
+
+.RightBar{
+
+  width: 83%;
+  height: 100%;
+}
+.UpBar{
+  width: 100%;
+  height: 90%;
+  /* background-color: red; */
+}
+
+.DownBar{
+  height: 10%;
+  width: 100%;
+  background-color: #2A2A2A;
+}
