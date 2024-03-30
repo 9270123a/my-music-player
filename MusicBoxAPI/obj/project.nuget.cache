@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i34HQ3w9uD9K5nb3sxWNFJmHwGWGaw12sbCAypBk8g6jOzZ0QRrpHtTOOPi6ejfUVpasVmMGkF45UXIMrdHHPg==",
+  "dgSpecHash": "sVxYMd3ZyZPnUSTbYqo0bbsnOJXk9eFW6ZbynjDaxJG7nwR7dNWlNeH/GIDRluCU7gGR/CKTGhAI0sNGMeHvMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\92701\\source\\repos\\MusicBoxAPI\\MusicBoxAPI\\MusicBoxAPI.csproj",
+  "projectFilePath": "C:\\Portfolio\\GIT_musicPlayer\\MusicBoxAPI\\MusicBoxAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\92701\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\92701\\.nuget\\packages\\documentformat.openxml\\3.0.1\\documentformat.openxml.3.0.1.nupkg.sha512",
